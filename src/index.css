@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    
+}
+.navbar_s1{
+    width: 150px;
+}
+.navbar_s2{
+    padding: 10px;
+    border: solid black 1px;
+    width: 40%;
+    height:35px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar_s2 input{
+    border: none;
+    width:100%;
+    font-size: 16px;
+}
+.navbar_s2 input:focus{
+    outline: none;
+}
+
+.navbar_s3{
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    align-items: center;
+}
+p{
+    color: #2A2B40;
+    font-size: 17px;
+}
+.navbar_s4{
+    display: none;
+}
+.mylearning{
+   position:relative;
+   cursor: pointer;
+}
+.mylearning:hover .mylearning_popup{
+    display: block;
+}
+.mylearning_popup{
+    display: none;
+   position:absolute;
+   background-color: rgba(255, 255, 255);
+   border: 1px solid black;
+   width: 100%;
+   top: 150%;
+   right: 0;
+   padding: 10px;
+
+}
+#login{
+    border: solid #6D29D1 1px;
+    height: 50px;
+    width: 90px;
+    border-radius: 5%;
+    color: #6D29D1;
+    background-color: white;
+}
+#signup{
+    border: solid #6D29D1 1px;
+    height: 50px;
+    width: 90px;
+    border-radius: 5%;
+    color:white;
+    background-color: #6D29D1;
+}
+
+#globe{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 8%;
+    border: solid #6D29D1 1px;
+}
+.menu_catt{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.catt{
+    height: 40px;
+    padding: 12px;
+    background-color:rgba(128, 0, 128, 0.915);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.catt:hover{
+    background-color: orange;
+    color: black;
+}
+.sale-image{
+    position: relative;
+}
+.sale-image img{
+    width: 100%;
+}
+.sale_imageoff{
+    padding: 10px;
+    width: 30%;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.course_ad{
+    padding: 20px;
+}
+.coursead_1{
+    display: flex;
+    gap: 30px;
+    border-bottom: solid black 0.1px;
+    padding-bottom: 15px;
+}
+.coursead_1 p{
+    font-size: 20px;
+
+}
+.ad{
+    margin: 20px;
+    padding: 20px;
+    background-color: #202230;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    border-radius: 20px;
+}
+.ad_img img{
+    height: 465px;
+    
+}
+.ad_sec p{
+    font-size: 22px;
+    padding: 5px;
+    color: rgba(253, 252, 252, 0.793);
+    margin-top: 10px;
+}
+.ad_sec{
+    width: 600px;
+}
+.ad_p1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_ad{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#2A2B40;
+    color: white;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px; 
+}
+.recommend{
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 20px;
+}
+.recomment_1 h6{
+    color: #2A2B40;
+    font-weight: lighter;
+}
+.recomment_1{
+    padding: 15px;
+    border: gray solid 0.5px;
+    
+    border-radius: 20px;
+    
+
+}
+.recomment_1 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.recomment_2{
+    padding: 15px;
+    border: gray solid 0.5px;
+    border-radius: 20px;
+}
+.recomment_2 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.small_recomment{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.small_recomment p{
+    padding: 3px;
+    border: gray solid 0.1px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#recommend_p{
+    background-color: #C2E9EB;
+    color: #0D5261;
+}
+.logo_card{
+    height: 200px;
+    background-color:#F6F7F9;
+    text-align: center;
+    padding-top: 60px;
+   
+}
+.logo_card p{
+    color: #5A5C72;
+    font-size: 20px;
+    font-weight: lighter;
+
+
+}
+.logo_card1{
+    height: 80px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo_card img{
+    height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    background-color: #2A2B40;
+    color: white;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.footer p{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+.footer_2 p:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.footer_2{
+    width: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    padding:40px;
+    background-color: #202230;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+.container p:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.footer1{
+    padding: 20px;
+    background-color: #202230;
+    height: 70px;
+    border-top: solid 0.1px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer1 p{
+    color:#ffffffe3;
+    font-weight: lighter;
+}
+.footer1 img{
+    height: 100px;
+    width: 100px;
+}
+#foot_img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+@media  screen and (max-width:1200px) {
+    .ad_sec,.ad_img{
+        width: 40%;
+        h1{
+            font-size: 18px;
+        }
+        p{
+        font-size: 15px;
+
+        }
+    }
+    .ad_img img{
+        width: 500px;
+    }
+    .recommend_1{
+        width: 25%;
+    }
+}
+
+
+@media  screen and (max-width:600px) {
+    body{
+        font-size: 18px;
+        h1{
+            font-size: 24px;
+        }
+    }
+    .navbar{
+        .navbar_s3,.nav1,.navbar_s2{
+            display: none;
+        }
+    }
+    .menu_catt{
+        display: none;
+    }
+    .sale_imageoff{
+        height: 140px;
+        p,h2{
+            font-size: 18px;
+
+        }
+    }
+    .sale-image img{
+        height: 230px;
+    }
+    .container{
+        gap: 20px;
+    }
+    #p_logo{
+        display: none;
+    }
+    .navbar_s4{
+        display: block;
+    }
+    .ad_img{
+        display: none;
+    }
+    .coursead_1 p{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    #dis{
+        display: none;
+    }
+    .recommend{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
